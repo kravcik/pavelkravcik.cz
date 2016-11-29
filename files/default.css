@@ -1,0 +1,91 @@
+body
+{
+    background: #000 url('./background.jpg') top center no-repeat;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 14px;
+}
+
+#page
+{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    height: 500px;
+}
+
+#logo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#title
+{
+    position: absolute;
+    top: 32px;
+    right: 55px;
+}
+
+#client
+{
+    position: absolute;
+    bottom: 100px;
+    right: 400px;
+    background: url('./detail.png') top left repeat;
+    width: 400px;
+    height: 260px;
+    color: rgb(205,205,205);
+}
+
+#detail
+{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    background: url('./detail.png') top left repeat;
+    width: 400px;
+    height: 260px;
+    color: rgb(205,205,205);
+    overflow: hidden;
+}
+
+.text-gray
+{
+    color: #666;
+}
+
+.text-blue
+{
+    color: rgb(0,170,212);
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    margin-top: 30px;
+}
+
+.info
+{
+    line-height: 150%;
+}
+
+a:link, a:visited
+{
+    color: rgb(0,170,212);
+}
+
+a:hover
+{
+    color: rgb(205,205,205);
+    text-decoration: none;
+}
